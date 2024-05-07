@@ -1,0 +1,71 @@
+/*
+Author: Kiersten Paquette
+Date: 7:42
+File name: styles.css
+ */
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Sytle rule for body and image */
+body {
+    background-color: #ccc;
+}
+
+img {
+    max-width: 100%
+    display: block;
+}
+
+/* Style rule for header */
+header {
+    float: left;
+    width: 25%;
+}
+
+/* Style rules for navigation area */
+nav{
+    float:right;
+    margin: 5em 3em 0 0;
+    width: 70%;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.75em;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+main{
+    clear: left;
+}
+
+/* Style Rules for Footer */
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
